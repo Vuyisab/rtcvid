@@ -4,7 +4,7 @@ This app allows users to have virtual meeteings with video calls
 
 ![IMG](./video-chat.png)
 
-Check out the live demo: https://video-chat-app-v1.herokuapp.com/
+Check out the live demo: https://bazachat-cideo-platform.herokuapp.com/
 
 This app is build using NodeJS, Socket.io, and WebRTC
 
