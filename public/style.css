@@ -3,7 +3,7 @@
 :root {
   --main-darklg: #1d2635;
   --main-dark: #161d29;
-  --primary-color: #2f80ec;
+  --primary-color: purple;
   --main-light: #eeeeee;
   font-family: "Poppins", sans-serif;
 }
@@ -188,4 +188,49 @@ video {
   #showChat {
     display: flex;
   }
+}
+
+header{
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 2.125rem;
+  width: 100%;
+  background-color: purple;
+  
+}
+
+header ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  row-gap: 0.75rem;
+
+}
+
+header li{
+  padding: 2rem;
+}
+header a{
+  text-decoration: none;
+  color: white
+}
+
+header a.active{
+  font-weight: bold;
+  color: purple
+}
+
+header a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+
+#container{
+  position: relative;
+  top: 2rem;
 }
